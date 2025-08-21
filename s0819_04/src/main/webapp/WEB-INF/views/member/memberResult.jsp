@@ -14,7 +14,7 @@
 		</style>
 	</head>
 	<body>
-	  <h2>회원정보</h2>
+	  <h2>입력결과</h2>
 	  <table>
 	    <tr>
 	      <th>아이디</th>
@@ -30,17 +30,16 @@
 	    </tr>
 	    <tr>
 	      <th>전화번호</th>
-	      <td>${math}</td>
+	      <td>${member.phone}</td>
 	    </tr>
 	    <tr>
 	      <th>성별</th>
-	      <td>${total}</td>
+	      <td>${member.gender}</td>
 	    </tr>
 	    <tr>
 	      <th>취미</th>
-	      <td><fmt:formatNumber value="${avg}" pattern="00.##" /></td>
+	      <td>${member.hobby}</td>
 	    </tr>
-	    
 	    <tr>
 	      <th colspan="2"><a href="/">메인페이지 이동</a></th>
 	    </tr>

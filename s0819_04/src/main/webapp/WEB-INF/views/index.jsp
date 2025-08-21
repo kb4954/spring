@@ -15,6 +15,7 @@
 			3. pathValiable
 			4. ajax
 		 -->
+			<li><a href="/member/mList">회원리스트</a></li>
 			<li><a href="/member/mView">회원정보보기</a></li>
 			<li><a href="/member/member">회원가입</a></li>
 			<li>----------------------------------</li>

@@ -5,7 +5,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>입력결과</title>
+		<title>회원정보</title>
 		<style>
 		  h2{text-align: center;}
 		  table{width:400px; margin:10px auto; }
